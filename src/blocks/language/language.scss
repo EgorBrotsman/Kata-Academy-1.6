@@ -1,0 +1,21 @@
+.language{
+	font-family: $font-family--medium;
+
+	&__list{
+		display: flex;
+	}
+
+	&__item{
+		margin-right: 7px;
+	}
+
+	&__btn--active{
+		opacity: 0.5;
+	}
+
+	&__btn:hover,
+	&__btn:focus{
+		border-bottom: 1px solid $black;
+		margin-bottom: -1px;
+	}
+}

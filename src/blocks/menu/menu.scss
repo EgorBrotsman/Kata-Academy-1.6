@@ -1,0 +1,72 @@
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	gap: 16px;
+
+	&__link{
+		@media screen and (min-width: $ld-screen){
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	&__text{
+		margin-right: 8px;
+	}
+
+	&--contacts{
+		display: none;
+
+		@media screen and (min-width: 768px) {
+			display: flex;
+		}
+	}
+
+	&--info{
+		position: relative;
+
+		&--navigation{
+			@media screen and (min-width: $ld-screen) {
+				display: none;
+			}
+		}
+
+		&--offer{
+			display: none;
+
+			@media screen and (min-width: $ld-screen) {
+				display: flex;
+			}
+		}
+
+		&::after{
+			content:'';
+			display: none;
+			position: absolute;
+			left: -21px;
+			width: 2px;
+			height: 32px;
+			background: #EAEAEA;
+
+			@media screen and (min-width: 315px){
+				display: block;
+			}
+
+			@media screen and (min-width: 350px){
+				display: none;
+			}
+
+			@media screen and (min-width: $md-screen){
+				display: block;
+			}
+
+			@media screen and (min-width: $ld-screen){
+				display: none;
+			}
+
+		}
+
+	}
+
+}

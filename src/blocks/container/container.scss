@@ -1,0 +1,12 @@
+.container{
+	width: 90%;
+	margin: 0 auto;
+
+	&--swiper{
+		
+		@media screen and (max-width: $md-screen){
+			width: 96%;
+			margin: 0 0 0 auto;
+		}
+	}
+}

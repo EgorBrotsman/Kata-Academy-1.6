@@ -1,0 +1,25 @@
+@import '~normalize.css';
+@import 'fonts.scss';
+@import 'variables.scss';
+@import 'general.scss';
+
+//Support block
+@import '../blocks/button/button.scss';
+@import '../blocks/container/container.scss';
+@import '../blocks/icon/icon.scss';
+@import '../blocks/line-left/line-left.scss';
+@import '../blocks/menu/menu.scss';
+@import '../blocks/language/language.scss';
+@import '../blocks/overflow/overflow.scss';
+@import '../blocks/wrapper/wrapper.scss';
+@import '../blocks/modal/modal.scss';
+@import '../blocks/section-title/section-title.scss';
+@import '../blocks/cards-swiper/cards-swiper.scss';
+
+
+//General block style
+@import '../blocks/body/body.scss';
+@import '../blocks/aside-menu/aside-menu.scss';
+@import '../blocks/header/header.scss';
+@import '../blocks/section/section.scss';
+@import '../blocks/footer/footer.scss';

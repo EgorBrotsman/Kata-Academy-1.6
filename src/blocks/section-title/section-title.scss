@@ -1,0 +1,13 @@
+.section-title{
+	padding: 16px 0;
+	margin: 16px 0 24px;
+	border-top: 1px solid $turquoise;
+	background-image: $section-title-gradient;
+
+	&__offer{
+		font-size: 16px;
+		font-weight: normal;
+		text-transform: uppercase;
+		color: $gray-text;
+	}
+}

@@ -1,0 +1,41 @@
+.button {
+	cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  &:focus {
+    outline: 1px solid black;
+  }
+
+	&__img--show-more{
+		margin-right: 16px;
+	}
+
+	&--icon{
+		border-radius: 50%;
+	}
+
+	&--form{
+		display: flex;
+		background-color: $pink;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 10px 20px;
+		border-radius: 20px;
+		font-weight: bold;
+		font-size: 12px;
+
+		img{
+			margin-left: 13px;
+		}
+	}
+
+	&--show-more{
+		font-family: $font-family--medium;
+
+		img{
+			margin-right: 16px;
+		}
+	}
+}
